@@ -15,7 +15,6 @@ $body = <<<EOF
             <p class="lead text-center">
                 <a href="collections.php" class="btn  btn-lg btn btn-outline-light lg">Go now!</a>
             </p>
-            <div id="app"></div>
         </div>
     </div>
 EOF;

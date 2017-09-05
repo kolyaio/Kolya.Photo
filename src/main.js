@@ -8,11 +8,15 @@ import Collections from './Collections.vue'
 import Vue from 'vue'
 import VueImg from 'v-img'
 
-new Vue({
-  el: '#app',
-  render: h => h(Collections)
-});
+Vue.config.devtools = true;
+Vue.config.debug = true;
+
 
 Vue.use(VueImg, {
-    altAsTitle: false,
+   altAsTitle: false
+});
+
+new Vue({
+    el: '#app',
+    render: h => h(Collections)
 });
