@@ -1,0 +1,32 @@
+{
+  "name": "kolya.photos",
+  "description": "Nikolai's photo gallery web site.  ",
+  "version": "1.0.0",
+  "author": "Nikolai Ilushko <nick2ilk@gmail.com>",
+  "private": true,
+  "scripts": {
+    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
+  },
+  "dependencies": {
+    "bootstrap": "4.0.0-beta",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.2.1",
+    "popper.js": "1.11.0",
+    "v-img": "^0.0.91",
+    "vue": "^2.3.3"
+  },
+  "devDependencies": {
+    "babel-core": "^6.0.0",
+    "babel-loader": "6.0.0",
+    "babel-preset-env": "1.5.1",
+    "cross-env": "3.0.0",
+    "css-loader": "0.28.7",
+    "extract-text-webpack-plugin": "3.0.0",
+    "file-loader": "0.9.0",
+    "style-loader": "^0.18.2",
+    "url-loader": "^0.5.9",
+    "vue-loader": "^12.1.0",
+    "vue-template-compiler": "^2.3.3",
+    "webpack": "^3.5.5"
+  }
+}
